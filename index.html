@@ -184,7 +184,7 @@
     });
 
     const result = await response.json();
-    resultBox.textContent = `✅ Prediction: ${result.prediction}`;
+    resultBox.textContent = `Prediction: ${result.prediction}`;
   } catch (error) {
     console.error(error);
     resultBox.textContent = "❌ Failed to get prediction. Please try again.";
